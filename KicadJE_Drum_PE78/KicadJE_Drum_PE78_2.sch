@@ -176,21 +176,6 @@ F 3 "~" H 6325 2300 50  0001 C CNN
 	1    6325 2300
 	1    0    0    -1  
 $EndComp
-$Comp
-L KicadJE_Counts-rescue:LM555-Timer U?
-U 1 1 605ABA8C
-P 5500 1900
-AR Path="/605ABA8C" Ref="U?"  Part="1" 
-AR Path="/5C781441/605ABA8C" Ref="U?"  Part="1" 
-AR Path="/5D60ED9A/605ABA8C" Ref="U?"  Part="1" 
-AR Path="/60565919/605ABA8C" Ref="U?"  Part="1" 
-F 0 "U?" H 5500 2478 50  0000 C CNN
-F 1 "LM555" H 5500 2387 50  0000 C CNN
-F 2 "AJ-Dropbox-Kicad:AJ_SO-8_5.3x6.2mm_P1.27mm" H 5500 1900 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm555.pdf" H 5500 1900 50  0001 C CNN
-	1    5500 1900
-	1    0    0    -1  
-$EndComp
 Text Label 5175 5500 0    50   ~ 0
 clk
 Connection ~ 3550 2375
@@ -543,36 +528,6 @@ Wire Wire Line
 Connection ~ 1850 1975
 Wire Wire Line
 	1850 1975 1950 1975
-$Comp
-L Envelope-cache-2018-08-04-13-00-04:GND #PWR?
-U 1 1 605ABB32
-P 1850 1975
-AR Path="/605ABB32" Ref="#PWR?"  Part="1" 
-AR Path="/5C8C5FC0/605ABB32" Ref="#PWR?"  Part="1" 
-AR Path="/5D60ED9A/605ABB32" Ref="#PWR?"  Part="1" 
-AR Path="/60565919/605ABB32" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 1850 1725 50  0001 C CNN
-F 1 "GND" H 1850 2050 50  0000 C CNN
-F 2 "" H 1850 1975 50  0001 C CNN
-F 3 "" H 1850 1975 50  0001 C CNN
-	1    1850 1975
-	1    0    0    -1  
-$EndComp
-$Comp
-L Envelope-cache-2018-08-04-13-00-04:GND #PWR?
-U 1 1 605ABB38
-P 2750 1975
-AR Path="/605ABB38" Ref="#PWR?"  Part="1" 
-AR Path="/5C8C5FC0/605ABB38" Ref="#PWR?"  Part="1" 
-AR Path="/5D60ED9A/605ABB38" Ref="#PWR?"  Part="1" 
-AR Path="/60565919/605ABB38" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2750 1725 50  0001 C CNN
-F 1 "GND" H 2755 1802 50  0000 C CNN
-F 2 "" H 2750 1975 50  0001 C CNN
-F 3 "" H 2750 1975 50  0001 C CNN
-	1    2750 1975
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3350 1975 3725 1975
 Connection ~ 3350 1975
@@ -939,21 +894,6 @@ F 3 "~" H 3100 6750 50  0001 C CNN
 	1    3100 6750
 	1    0    0    -1  
 $EndComp
-$Comp
-L Envelope-cache-2018-08-04-13-00-04:GND #PWR?
-U 1 1 605ABBF0
-P 3450 7100
-AR Path="/605ABBF0" Ref="#PWR?"  Part="1" 
-AR Path="/5C8C5FC0/605ABBF0" Ref="#PWR?"  Part="1" 
-AR Path="/5D60ED9A/605ABBF0" Ref="#PWR?"  Part="1" 
-AR Path="/60565919/605ABBF0" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3450 6850 50  0001 C CNN
-F 1 "GND" H 3455 6927 50  0000 C CNN
-F 2 "" H 3450 7100 50  0001 C CNN
-F 3 "" H 3450 7100 50  0001 C CNN
-	1    3450 7100
-	1    0    0    -1  
-$EndComp
 Connection ~ 3950 5450
 Wire Wire Line
 	3950 5450 3850 5450
@@ -1116,30 +1056,4 @@ Wire Wire Line
 	1850 1775 1850 1575
 Wire Wire Line
 	1950 1775 1850 1775
-$Comp
-L Eurorack:HEADER_2x5_Doepfer P?
-U 1 1 605ABC47
-P 2100 1975
-F 0 "P?" H 2100 1477 40  0000 C CNN
-F 1 "HEADER_2x5_Doepfer" H 2100 1553 40  0000 C CNN
-F 2 "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical" H 2100 1375 60  0000 C CNN
-F 3 "" H 2100 1975 60  0000 C CNN
-	1    2100 1975
-	-1   0    0    1   
-$EndComp
-$Comp
-L 4xxx:4017 U?
-U 1 1 605ABC4D
-P 5850 6000
-AR Path="/605ABC4D" Ref="U?"  Part="1" 
-AR Path="/5C8C5FC0/605ABC4D" Ref="U?"  Part="1" 
-AR Path="/5D60ED9A/605ABC4D" Ref="U?"  Part="1" 
-AR Path="/60565919/605ABC4D" Ref="U?"  Part="1" 
-F 0 "U?" H 5850 6981 50  0000 C CNN
-F 1 "4017" H 5850 6890 50  0000 C CNN
-F 2 "AJ:SOIC-16_4.55x10.3mm_P1.27mm" H 5850 6000 50  0001 C CNN
-F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4017bms-22bms.pdf" H 5850 6000 50  0001 C CNN
-	1    5850 6000
-	1    0    0    -1  
-$EndComp
 $EndSCHEMATC
