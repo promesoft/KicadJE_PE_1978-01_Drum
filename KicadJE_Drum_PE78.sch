@@ -90,31 +90,31 @@ $EndComp
 $Comp
 L Device:R R113
 U 1 1 605ABB0A
-P 8225 6175
+P 8550 6175
 AR Path="/605ABB0A" Ref="R113"  Part="1" 
 AR Path="/5C8C5FC0/605ABB0A" Ref="R?"  Part="1" 
 AR Path="/5D60ED9A/605ABB0A" Ref="R?"  Part="1" 
 AR Path="/60565919/605ABB0A" Ref="R?"  Part="1" 
-F 0 "R113" V 8225 6125 50  0000 C CNN
-F 1 "10R" V 8109 6175 50  0000 C CNN
-F 2 "AJ:R_0805_AJ" V 8155 6175 50  0001 C CNN
-F 3 "~" H 8225 6175 50  0001 C CNN
-	1    8225 6175
+F 0 "R113" V 8550 6125 50  0000 C CNN
+F 1 "10R" V 8434 6175 50  0000 C CNN
+F 2 "AJ:R_0805_AJ" V 8480 6175 50  0001 C CNN
+F 3 "~" H 8550 6175 50  0001 C CNN
+	1    8550 6175
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R112
 U 1 1 605ABB10
-P 8500 5375
+P 8625 5375
 AR Path="/605ABB10" Ref="R112"  Part="1" 
 AR Path="/5C8C5FC0/605ABB10" Ref="R?"  Part="1" 
 AR Path="/5D60ED9A/605ABB10" Ref="R?"  Part="1" 
 AR Path="/60565919/605ABB10" Ref="R?"  Part="1" 
-F 0 "R112" V 8500 5325 50  0000 C CNN
-F 1 "10R" V 8384 5375 50  0000 C CNN
-F 2 "AJ:R_0805_AJ" V 8430 5375 50  0001 C CNN
-F 3 "~" H 8500 5375 50  0001 C CNN
-	1    8500 5375
+F 0 "R112" V 8625 5325 50  0000 C CNN
+F 1 "10R" V 8509 5375 50  0000 C CNN
+F 2 "AJ:R_0805_AJ" V 8555 5375 50  0001 C CNN
+F 3 "~" H 8625 5375 50  0001 C CNN
+	1    8625 5375
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -171,17 +171,12 @@ $EndComp
 Connection ~ 7575 5775
 Wire Wire Line
 	7575 5775 7675 5775
-Wire Wire Line
-	7975 5775 8200 5775
 Text GLabel 9825 6175 3    50   Input ~ 0
 -12Vc
 Text GLabel 9825 5375 1    50   Input ~ 0
 +12Vc
 Wire Wire Line
 	8775 5425 8775 5375
-Wire Wire Line
-	8375 6175 8775 6175
-Connection ~ 8775 6175
 Wire Wire Line
 	8775 6125 8775 6175
 Connection ~ 8775 5775
@@ -212,15 +207,10 @@ F 3 "~" H 8775 5575 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7975 6175 8075 6175
-Connection ~ 7975 6175
+	8375 5775 8375 5675
+Connection ~ 8375 5775
 Wire Wire Line
-	7975 5975 7975 6175
-Wire Wire Line
-	7975 5775 7975 5675
-Connection ~ 7975 5775
-Wire Wire Line
-	7975 5875 7975 5775
+	8375 5875 8375 5775
 Wire Wire Line
 	7675 5775 7675 5675
 Connection ~ 7675 5775
@@ -229,25 +219,20 @@ Wire Wire Line
 Wire Wire Line
 	7175 6175 7575 6175
 Wire Wire Line
-	7575 6175 7975 6175
-Connection ~ 7575 6175
-Wire Wire Line
 	7575 5975 7575 6175
 Wire Wire Line
 	7675 5975 7575 5975
-Wire Wire Line
-	7575 5575 7575 5375
 Wire Wire Line
 	7675 5575 7575 5575
 $Comp
 L power:GND #PWR0104
 U 1 1 6076279B
-P 8200 5775
-F 0 "#PWR0104" H 8200 5525 50  0001 C CNN
-F 1 "GND" H 8205 5602 50  0000 C CNN
-F 2 "" H 8200 5775 50  0001 C CNN
-F 3 "" H 8200 5775 50  0001 C CNN
-	1    8200 5775
+P 8575 5775
+F 0 "#PWR0104" H 8575 5525 50  0001 C CNN
+F 1 "GND" H 8580 5602 50  0000 C CNN
+F 2 "" H 8575 5775 50  0001 C CNN
+F 3 "" H 8575 5775 50  0001 C CNN
+	1    8575 5775
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -261,9 +246,6 @@ F 3 "" H 7575 5775 50  0001 C CNN
 	1    7575 5775
 	1    0    0    -1  
 $EndComp
-Connection ~ 8200 5775
-Wire Wire Line
-	8200 5775 8775 5775
 $Comp
 L 74xx:74HC04 U101
 U 1 1 60767BEF
@@ -709,28 +691,9 @@ Wire Wire Line
 Connection ~ 8425 3625
 Wire Wire Line
 	8425 3625 8325 3625
-Text GLabel 4800 1825 2    47   Input ~ 0
+Text GLabel 4500 1825 2    47   Input ~ 0
 BassOut
-Wire Wire Line
-	4300 1825 4475 1825
 Connection ~ 4300 1825
-$Comp
-L Device:R R109
-U 1 1 607BE08D
-P 4625 1825
-AR Path="/607BE08D" Ref="R109"  Part="1" 
-AR Path="/5C8C5FC0/607BE08D" Ref="R?"  Part="1" 
-AR Path="/5D60ED9A/607BE08D" Ref="R?"  Part="1" 
-AR Path="/60565919/607BE08D" Ref="R?"  Part="1" 
-F 0 "R109" V 4625 1775 50  0000 C CNN
-F 1 "390k" V 4509 1825 50  0000 C CNN
-F 2 "AJ:R_0805_AJ" V 4555 1825 50  0001 C CNN
-F 3 "~" H 4625 1825 50  0001 C CNN
-	1    4625 1825
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4775 1825 4800 1825
 $Comp
 L Device:R R103
 U 1 1 607C188C
@@ -836,77 +799,24 @@ Wire Wire Line
 Connection ~ 3825 3650
 Wire Wire Line
 	3825 3650 3725 3650
-Text GLabel 4800 3650 2    47   Input ~ 0
+Text GLabel 4500 3650 2    47   Input ~ 0
 LBongoOut
-Wire Wire Line
-	4300 3650 4475 3650
 Connection ~ 4300 3650
-$Comp
-L Device:R R110
-U 1 1 607C1D57
-P 4625 3650
-AR Path="/607C1D57" Ref="R110"  Part="1" 
-AR Path="/5C8C5FC0/607C1D57" Ref="R?"  Part="1" 
-AR Path="/5D60ED9A/607C1D57" Ref="R?"  Part="1" 
-AR Path="/60565919/607C1D57" Ref="R?"  Part="1" 
-F 0 "R110" V 4625 3600 50  0000 C CNN
-F 1 "390k" V 4509 3650 50  0000 C CNN
-F 2 "AJ:R_0805_AJ" V 4555 3650 50  0001 C CNN
-F 3 "~" H 4625 3650 50  0001 C CNN
-	1    4625 3650
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4775 3650 4800 3650
 Wire Wire Line
 	3425 2550 3575 2550
 Wire Wire Line
 	4175 2550 4300 2550
-Text GLabel 9400 1825 2    47   Input ~ 0
+Text GLabel 9075 1825 2    47   Input ~ 0
 HBongoOut
 Wire Wire Line
 	8900 1825 9075 1825
-$Comp
-L Device:R R123
-U 1 1 607D73A4
-P 9225 1825
-AR Path="/607D73A4" Ref="R123"  Part="1" 
-AR Path="/5C8C5FC0/607D73A4" Ref="R?"  Part="1" 
-AR Path="/5D60ED9A/607D73A4" Ref="R?"  Part="1" 
-AR Path="/60565919/607D73A4" Ref="R?"  Part="1" 
-F 0 "R123" V 9225 1775 50  0000 C CNN
-F 1 "390k" V 9109 1825 50  0000 C CNN
-F 2 "AJ:R_0805_AJ" V 9155 1825 50  0001 C CNN
-F 3 "~" H 9225 1825 50  0001 C CNN
-	1    9225 1825
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	9375 1825 9400 1825
 Connection ~ 8900 1825
 Wire Wire Line
 	8025 2525 8150 2525
 Wire Wire Line
 	8750 2525 8900 2525
-Text GLabel 9375 3625 2    47   Input ~ 0
+Text GLabel 9050 3625 2    47   Input ~ 0
 ClavesOut
-$Comp
-L Device:R R122
-U 1 1 607F00E5
-P 9200 3625
-AR Path="/607F00E5" Ref="R122"  Part="1" 
-AR Path="/5C8C5FC0/607F00E5" Ref="R?"  Part="1" 
-AR Path="/5D60ED9A/607F00E5" Ref="R?"  Part="1" 
-AR Path="/60565919/607F00E5" Ref="R?"  Part="1" 
-F 0 "R122" V 9200 3575 50  0000 C CNN
-F 1 "390k" V 9084 3625 50  0000 C CNN
-F 2 "AJ:R_0805_AJ" V 9130 3625 50  0001 C CNN
-F 3 "~" H 9200 3625 50  0001 C CNN
-	1    9200 3625
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	9350 3625 9375 3625
 Wire Wire Line
 	9050 3625 8900 3625
 Connection ~ 8900 3625
@@ -1607,8 +1517,6 @@ F 3 "~" H 8200 1300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8775 5775 9450 5775
-Wire Wire Line
 	8775 5375 9275 5375
 Wire Wire Line
 	8775 6175 9275 6175
@@ -1825,12 +1733,12 @@ Connection ~ 1950 4925
 $Comp
 L power:+5V #PWR?
 U 1 1 60DE30BF
-P 10675 5000
-F 0 "#PWR?" H 10675 4850 50  0001 C CNN
-F 1 "+5V" H 10690 5173 50  0000 C CNN
-F 2 "" H 10675 5000 50  0001 C CNN
-F 3 "" H 10675 5000 50  0001 C CNN
-	1    10675 5000
+P 8850 4775
+F 0 "#PWR?" H 8850 4625 50  0001 C CNN
+F 1 "+5V" H 8865 4948 50  0000 C CNN
+F 2 "" H 8850 4775 50  0001 C CNN
+F 3 "" H 8850 4775 50  0001 C CNN
+	1    8850 4775
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1849,8 +1757,6 @@ $EndComp
 Wire Wire Line
 	10675 6150 10675 6075
 Text Notes 5000 8950 0    157  ~ 0
-HUSK NU AT LAVE +5V !!!!!!!!!!
-Text Notes 4825 4375 0    157  ~ 0
 HUSK NU AT LAVE +5V !!!!!!!!!!
 $Comp
 L Device:C C?
@@ -2505,7 +2411,7 @@ U 1 1 6126B878
 P 5475 6375
 F 0 "RV?" H 5406 6421 50  0000 R CNN
 F 1 "R_POT" H 5406 6330 50  0000 R CNN
-F 2 "" H 5475 6375 50  0001 C CNN
+F 2 "AJ:Potentiometer_China_RK09_Single_Vertical_AJ" H 5475 6375 50  0001 C CNN
 F 3 "~" H 5475 6375 50  0001 C CNN
 	1    5475 6375
 	1    0    0    -1  
@@ -2627,4 +2533,119 @@ Wire Wire Line
 Connection ~ 4800 6475
 Wire Wire Line
 	4800 6475 4875 6475
+$Comp
+L Doepfer_Power_14pin:Doepfer_Power_16pin P?
+U 1 1 61739A83
+P 8025 5675
+F 0 "P?" H 8025 5010 50  0000 C CNN
+F 1 "Doepfer_Power_16pin" H 8025 5101 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 8025 5675 50  0001 C CNN
+F 3 "DOCUMENTATION" H 8025 5675 50  0001 C CNN
+	1    8025 5675
+	-1   0    0    1   
+$EndComp
+Connection ~ 8775 5375
+Wire Wire Line
+	8575 5775 8775 5775
+Wire Wire Line
+	8775 5775 9450 5775
+Wire Wire Line
+	8375 5775 8575 5775
+Connection ~ 8575 5775
+Wire Wire Line
+	8775 6175 8700 6175
+Connection ~ 8775 6175
+Wire Wire Line
+	8400 6175 8375 6175
+Wire Wire Line
+	8375 6175 8375 5975
+Wire Wire Line
+	7575 6175 7575 6250
+Wire Wire Line
+	7575 6250 8375 6250
+Wire Wire Line
+	8375 6250 8375 6175
+Connection ~ 7575 6175
+Connection ~ 8375 6175
+Wire Wire Line
+	8375 5575 8475 5575
+Wire Wire Line
+	8475 5575 8475 5375
+Wire Wire Line
+	7575 5025 8475 5025
+Wire Wire Line
+	8475 5025 8475 5375
+Wire Wire Line
+	7575 5025 7575 5575
+Connection ~ 8475 5375
+$Comp
+L Device:R R?
+U 1 1 619774B5
+P 8575 4800
+AR Path="/619774B5" Ref="R?"  Part="1" 
+AR Path="/5C8C5FC0/619774B5" Ref="R?"  Part="1" 
+AR Path="/5D60ED9A/619774B5" Ref="R?"  Part="1" 
+AR Path="/60565919/619774B5" Ref="R?"  Part="1" 
+F 0 "R?" V 8575 4750 50  0000 C CNN
+F 1 "10R" V 8459 4800 50  0000 C CNN
+F 2 "AJ:R_0805_AJ" V 8505 4800 50  0001 C CNN
+F 3 "~" H 8575 4800 50  0001 C CNN
+	1    8575 4800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7675 5475 7625 5475
+Wire Wire Line
+	7625 5475 7625 4800
+Wire Wire Line
+	8375 5475 8425 5475
+Wire Wire Line
+	8425 4800 8425 5475
+Connection ~ 8425 4800
+Wire Wire Line
+	7625 4800 8425 4800
+Wire Wire Line
+	8725 4800 8850 4800
+Wire Wire Line
+	8850 4800 8850 4775
+$Comp
+L Device:C C?
+U 1 1 61A3ECD2
+P 8850 4950
+F 0 "C?" H 8965 4996 50  0000 L CNN
+F 1 "1u" H 8965 4905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 8888 4800 50  0001 C CNN
+F 3 "~" H 8850 4950 50  0001 C CNN
+	1    8850 4950
+	1    0    0    -1  
+$EndComp
+Connection ~ 8850 4800
+$Comp
+L power:GND #PWR?
+U 1 1 61A3F1FE
+P 8850 5150
+F 0 "#PWR?" H 8850 4900 50  0001 C CNN
+F 1 "GND" H 8855 4977 50  0000 C CNN
+F 2 "" H 8850 5150 50  0001 C CNN
+F 3 "" H 8850 5150 50  0001 C CNN
+	1    8850 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 5150 8850 5100
+$Comp
+L power:+5V #PWR?
+U 1 1 61A81B6C
+P 10675 5000
+F 0 "#PWR?" H 10675 4850 50  0001 C CNN
+F 1 "+5V" H 10690 5173 50  0000 C CNN
+F 2 "" H 10675 5000 50  0001 C CNN
+F 3 "" H 10675 5000 50  0001 C CNN
+	1    10675 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 1825 4500 1825
+Wire Wire Line
+	4300 3650 4500 3650
 $EndSCHEMATC
