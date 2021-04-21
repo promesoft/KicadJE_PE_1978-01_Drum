@@ -2632,7 +2632,7 @@ F 3 "" H 8850 5150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8850 5150 8850 5100
+	8850 5150 8850 5125
 $Comp
 L power:+5V #PWR?
 U 1 1 61A81B6C
@@ -2648,4 +2648,24 @@ Wire Wire Line
 	4300 1825 4500 1825
 Wire Wire Line
 	4300 3650 4500 3650
+$Comp
+L Device:C C?
+U 1 1 608295AC
+P 9200 4950
+F 0 "C?" H 9315 4996 50  0000 L CNN
+F 1 "100n" H 9315 4905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 9238 4800 50  0001 C CNN
+F 3 "~" H 9200 4950 50  0001 C CNN
+	1    9200 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 4800 9200 4800
+Wire Wire Line
+	9200 5100 9200 5125
+Wire Wire Line
+	9200 5125 8850 5125
+Connection ~ 8850 5125
+Wire Wire Line
+	8850 5125 8850 5100
 $EndSCHEMATC
