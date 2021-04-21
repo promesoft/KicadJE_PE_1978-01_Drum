@@ -345,8 +345,6 @@ Wire Wire Line
 	2425 2550 2425 2225
 Wire Wire Line
 	2425 2225 2600 2225
-Text GLabel 2950 2550 2    47   Input ~ 0
-BassOut
 $Comp
 L Device:C C?
 U 1 1 61A91797
@@ -620,7 +618,7 @@ AR Path="/5D60ED9A/61BC62DE" Ref="R?"  Part="1"
 AR Path="/60565919/61BC62DE" Ref="R?"  Part="1" 
 AR Path="/6165D4D0/61BC62DE" Ref="R?"  Part="1" 
 F 0 "R?" V 2725 2500 50  0000 C CNN
-F 1 "390k" V 2675 2350 50  0000 C CNN
+F 1 "10k" V 2675 2350 50  0000 C CNN
 F 2 "AJ:R_0805_AJ" V 2655 2550 50  0001 C CNN
 F 3 "~" H 2725 2550 50  0001 C CNN
 	1    2725 2550
@@ -760,4 +758,8 @@ Wire Wire Line
 	5800 4800 5650 4800
 Wire Wire Line
 	5650 4800 5650 5100
+Text GLabel 10300 1775 0    47   Input ~ 0
+NoiseOut
+Text GLabel 2950 2550 2    47   Input ~ 0
+NoiseOut
 $EndSCHEMATC
