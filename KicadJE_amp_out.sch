@@ -155,15 +155,15 @@ F 1 "Tones" H 10772 958 50  0000 R CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 10800 1025 50  0001 C CNN
 F 3 "~" H 10800 1025 50  0001 C CNN
 	1    10800 1025
-	-1   0    0    -1  
+	-1   0    0    1   
 $EndComp
-Text GLabel 10300 1025 0    47   Input ~ 0
+Text GLabel 9800 1025 0    47   Input ~ 0
 LBongoOut
-Text GLabel 10300 1125 0    47   Input ~ 0
+Text GLabel 9800 1125 0    47   Input ~ 0
 BassOut
-Text GLabel 10300 825  0    47   Input ~ 0
+Text GLabel 9800 825  0    47   Input ~ 0
 ClavesOut
-Text GLabel 10300 925  0    47   Input ~ 0
+Text GLabel 9800 925  0    47   Input ~ 0
 HBongoOut
 Wire Wire Line
 	10600 1125 10300 1125
@@ -263,40 +263,36 @@ Wire Wire Line
 Wire Wire Line
 	2325 2225 2200 2225
 $Comp
-L Connector:Conn_01x05_Male J?
+L Connector:Conn_01x03_Male J?
 U 1 1 61710EAB
-P 10800 1875
+P 10800 1775
 AR Path="/607E07E1/61710EAB" Ref="J?"  Part="1" 
 AR Path="/61710EAB" Ref="J?"  Part="1" 
 AR Path="/6165D4D0/61710EAB" Ref="J?"  Part="1" 
-F 0 "J?" H 10772 1899 50  0000 R CNN
-F 1 "Tones" H 10772 1808 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 10800 1875 50  0001 C CNN
-F 3 "~" H 10800 1875 50  0001 C CNN
-	1    10800 1875
-	-1   0    0    -1  
+F 0 "J?" V 10772 1799 50  0000 R CNN
+F 1 "Noise" H 10772 1708 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 10800 1775 50  0001 C CNN
+F 3 "~" H 10800 1775 50  0001 C CNN
+	1    10800 1775
+	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 61715219
-P 10300 2100
+P 10300 1900
 AR Path="/61715219" Ref="#PWR?"  Part="1" 
 AR Path="/6165D4D0/61715219" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 10300 1850 50  0001 C CNN
-F 1 "GND" H 10305 1927 50  0000 C CNN
-F 2 "" H 10300 2100 50  0001 C CNN
-F 3 "" H 10300 2100 50  0001 C CNN
-	1    10300 2100
+F 0 "#PWR?" H 10300 1650 50  0001 C CNN
+F 1 "GND" H 10305 1727 50  0000 C CNN
+F 2 "" H 10300 1900 50  0001 C CNN
+F 3 "" H 10300 1900 50  0001 C CNN
+	1    10300 1900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10300 2100 10300 2075
-Wire Wire Line
-	10300 2075 10600 2075
-Text GLabel 10300 1675 0    47   Input ~ 0
+	10300 1900 10300 1875
+Text GLabel 9800 1675 0    47   Input ~ 0
 NDrumsOut
-Wire Wire Line
-	10600 1975 10300 1975
 Wire Wire Line
 	10300 1875 10600 1875
 Wire Wire Line
@@ -334,7 +330,7 @@ AR Path="/607E07E1/61A8A423" Ref="J?"  Part="1"
 AR Path="/61A8A423" Ref="J?"  Part="1" 
 AR Path="/6165D4D0/61A8A423" Ref="J?"  Part="1" 
 F 0 "J?" H 2397 2774 50  0000 R CNN
-F 1 "Tones" H 2397 2683 50  0000 R CNN
+F 1 "Tone/Noise" H 2397 2683 50  0000 R CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2425 2750 50  0001 C CNN
 F 3 "~" H 2425 2750 50  0001 C CNN
 	1    2425 2750
@@ -758,8 +754,116 @@ Wire Wire Line
 	5800 4800 5650 4800
 Wire Wire Line
 	5650 4800 5650 5100
-Text GLabel 10300 1775 0    47   Input ~ 0
+Text GLabel 9800 1775 0    47   Input ~ 0
 NoiseOut
 Text GLabel 2950 2550 2    47   Input ~ 0
 NoiseOut
+$Comp
+L Device:R R?
+U 1 1 608AC9E1
+P 10150 925
+AR Path="/608AC9E1" Ref="R?"  Part="1" 
+AR Path="/5C8C5FC0/608AC9E1" Ref="R?"  Part="1" 
+AR Path="/5D60ED9A/608AC9E1" Ref="R?"  Part="1" 
+AR Path="/60565919/608AC9E1" Ref="R?"  Part="1" 
+AR Path="/6165D4D0/608AC9E1" Ref="R?"  Part="1" 
+F 0 "R?" V 10150 875 50  0000 C CNN
+F 1 "390k" V 10100 725 50  0000 C CNN
+F 2 "AJ:R_0805_AJ" V 10080 925 50  0001 C CNN
+F 3 "~" H 10150 925 50  0001 C CNN
+	1    10150 925 
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 608ACE07
+P 10150 825
+AR Path="/608ACE07" Ref="R?"  Part="1" 
+AR Path="/5C8C5FC0/608ACE07" Ref="R?"  Part="1" 
+AR Path="/5D60ED9A/608ACE07" Ref="R?"  Part="1" 
+AR Path="/60565919/608ACE07" Ref="R?"  Part="1" 
+AR Path="/6165D4D0/608ACE07" Ref="R?"  Part="1" 
+F 0 "R?" V 10150 775 50  0000 C CNN
+F 1 "470k" V 10100 625 50  0000 C CNN
+F 2 "AJ:R_0805_AJ" V 10080 825 50  0001 C CNN
+F 3 "~" H 10150 825 50  0001 C CNN
+	1    10150 825 
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 608ACE11
+P 10150 1025
+AR Path="/608ACE11" Ref="R?"  Part="1" 
+AR Path="/5C8C5FC0/608ACE11" Ref="R?"  Part="1" 
+AR Path="/5D60ED9A/608ACE11" Ref="R?"  Part="1" 
+AR Path="/60565919/608ACE11" Ref="R?"  Part="1" 
+AR Path="/6165D4D0/608ACE11" Ref="R?"  Part="1" 
+F 0 "R?" V 10150 975 50  0000 C CNN
+F 1 "390k" V 10100 825 50  0000 C CNN
+F 2 "AJ:R_0805_AJ" V 10080 1025 50  0001 C CNN
+F 3 "~" H 10150 1025 50  0001 C CNN
+	1    10150 1025
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 608ACE1B
+P 10150 1125
+AR Path="/608ACE1B" Ref="R?"  Part="1" 
+AR Path="/5C8C5FC0/608ACE1B" Ref="R?"  Part="1" 
+AR Path="/5D60ED9A/608ACE1B" Ref="R?"  Part="1" 
+AR Path="/60565919/608ACE1B" Ref="R?"  Part="1" 
+AR Path="/6165D4D0/608ACE1B" Ref="R?"  Part="1" 
+F 0 "R?" V 10150 1075 50  0000 C CNN
+F 1 "390k" V 10100 925 50  0000 C CNN
+F 2 "AJ:R_0805_AJ" V 10080 1125 50  0001 C CNN
+F 3 "~" H 10150 1125 50  0001 C CNN
+	1    10150 1125
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9800 825  10000 825 
+Wire Wire Line
+	10000 1125 9800 1125
+Wire Wire Line
+	9800 1025 10000 1025
+Wire Wire Line
+	10000 925  9800 925 
+$Comp
+L Device:R R?
+U 1 1 608B8687
+P 10150 1675
+AR Path="/608B8687" Ref="R?"  Part="1" 
+AR Path="/5C8C5FC0/608B8687" Ref="R?"  Part="1" 
+AR Path="/5D60ED9A/608B8687" Ref="R?"  Part="1" 
+AR Path="/60565919/608B8687" Ref="R?"  Part="1" 
+AR Path="/6165D4D0/608B8687" Ref="R?"  Part="1" 
+F 0 "R?" V 10150 1625 50  0000 C CNN
+F 1 "10k" V 10100 1475 50  0000 C CNN
+F 2 "AJ:R_0805_AJ" V 10080 1675 50  0001 C CNN
+F 3 "~" H 10150 1675 50  0001 C CNN
+	1    10150 1675
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 608B8FB9
+P 10150 1775
+AR Path="/608B8FB9" Ref="R?"  Part="1" 
+AR Path="/5C8C5FC0/608B8FB9" Ref="R?"  Part="1" 
+AR Path="/5D60ED9A/608B8FB9" Ref="R?"  Part="1" 
+AR Path="/60565919/608B8FB9" Ref="R?"  Part="1" 
+AR Path="/6165D4D0/608B8FB9" Ref="R?"  Part="1" 
+F 0 "R?" V 10150 1725 50  0000 C CNN
+F 1 "10k" V 10100 1575 50  0000 C CNN
+F 2 "AJ:R_0805_AJ" V 10080 1775 50  0001 C CNN
+F 3 "~" H 10150 1775 50  0001 C CNN
+	1    10150 1775
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10000 1775 9800 1775
+Wire Wire Line
+	9800 1675 10000 1675
 $EndSCHEMATC

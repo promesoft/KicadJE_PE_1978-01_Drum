@@ -338,76 +338,241 @@ Wire Wire Line
 $Comp
 L Connector:Conn_01x04_Male J205
 U 1 1 60800BD9
-P 4900 4300
-F 0 "J205" H 4872 4274 50  0000 R CNN
-F 1 "Power +" H 4872 4183 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 4900 4300 50  0001 C CNN
-F 3 "~" H 4900 4300 50  0001 C CNN
-	1    4900 4300
+P 5900 2100
+F 0 "J205" H 5872 2074 50  0000 R CNN
+F 1 "Power +" H 5872 1983 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 5900 2100 50  0001 C CNN
+F 3 "~" H 5900 2100 50  0001 C CNN
+	1    5900 2100
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_01x04_Male J206
 U 1 1 608011E9
-P 4900 4775
-F 0 "J206" H 4872 4749 50  0000 R CNN
-F 1 "Power -" H 4872 4658 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 4900 4775 50  0001 C CNN
-F 3 "~" H 4900 4775 50  0001 C CNN
-	1    4900 4775
+P 5900 2575
+F 0 "J206" H 5872 2549 50  0000 R CNN
+F 1 "Power -" H 5872 2458 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 5900 2575 50  0001 C CNN
+F 3 "~" H 5900 2575 50  0001 C CNN
+	1    5900 2575
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	4700 4200 4525 4200
+	5700 2000 5525 2000
 Wire Wire Line
-	4525 4200 4525 4400
+	5525 2000 5525 2200
 Wire Wire Line
-	4525 4400 4700 4400
+	5525 2200 5700 2200
 Wire Wire Line
-	4700 4300 4600 4300
+	5700 2100 5600 2100
 Wire Wire Line
-	4600 4300 4600 4500
+	5600 2100 5600 2300
 Wire Wire Line
-	4600 4500 4700 4500
+	5600 2300 5700 2300
 Wire Wire Line
-	4700 4675 4525 4675
+	5700 2475 5525 2475
 Wire Wire Line
-	4525 4675 4525 4875
+	5525 2475 5525 2675
 Wire Wire Line
-	4525 4875 4700 4875
+	5525 2675 5700 2675
 Wire Wire Line
-	4700 4775 4600 4775
+	5700 2575 5600 2575
 Wire Wire Line
-	4600 4775 4600 4975
+	5600 2575 5600 2775
 Wire Wire Line
-	4600 4975 4700 4975
-Text GLabel 4600 4975 0    50   Input ~ 0
+	5600 2775 5700 2775
+Text GLabel 5600 2775 0    50   Input ~ 0
 -12Vc
-Text GLabel 4525 4200 0    50   Input ~ 0
+Text GLabel 5525 2000 0    50   Input ~ 0
 +12Vc
 $Comp
 L power:GND #PWR?
 U 1 1 60806A30
-P 4600 4500
+P 5600 2300
 AR Path="/60806A30" Ref="#PWR?"  Part="1" 
 AR Path="/607E07E1/60806A30" Ref="#PWR0204"  Part="1" 
-F 0 "#PWR0204" H 4600 4250 50  0001 C CNN
-F 1 "GND" H 4605 4327 50  0000 C CNN
-F 2 "" H 4600 4500 50  0001 C CNN
-F 3 "" H 4600 4500 50  0001 C CNN
-	1    4600 4500
+F 0 "#PWR0204" H 5600 2050 50  0001 C CNN
+F 1 "GND" H 5605 2127 50  0000 C CNN
+F 2 "" H 5600 2300 50  0001 C CNN
+F 3 "" H 5600 2300 50  0001 C CNN
+	1    5600 2300
 	1    0    0    -1  
 $EndComp
-Connection ~ 4600 4500
+Connection ~ 5600 2300
 Wire Wire Line
-	4525 4675 4525 4500
-Connection ~ 4525 4675
+	5525 2475 5525 2300
+Connection ~ 5525 2475
 Wire Wire Line
-	4525 4500 4600 4500
+	5525 2300 5600 2300
 Wire Wire Line
 	3600 2350 4275 2350
 Wire Wire Line
 	3600 1950 4275 1950
 Wire Wire Line
 	3600 2750 4275 2750
+$Comp
+L Connector:Conn_01x03_Male J?
+U 1 1 6086D012
+P 3175 3725
+F 0 "J?" H 3147 3749 50  0000 R CNN
+F 1 "Conn_01x03_Male" H 3147 3658 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3175 3725 50  0001 C CNN
+F 3 "~" H 3175 3725 50  0001 C CNN
+	1    3175 3725
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack2_SwitchT J?
+U 1 1 6086D1D0
+P 2425 3725
+F 0 "J?" H 2457 4050 50  0000 C CNN
+F 1 "AudioJack2_SwitchT" H 2457 3959 50  0000 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_Switronic_ST-005-G_horizontal" H 2425 3725 50  0001 C CNN
+F 3 "~" H 2425 3725 50  0001 C CNN
+	1    2425 3725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2625 3625 2825 3625
+Wire Wire Line
+	2625 3725 2975 3725
+Wire Wire Line
+	2625 3825 2975 3825
+Wire Wire Line
+	2825 4225 2825 3625
+Connection ~ 2825 3625
+Wire Wire Line
+	2825 3625 2975 3625
+Wire Wire Line
+	2000 2300 2000 2350
+Wire Wire Line
+	2025 1950 2000 1950
+Wire Wire Line
+	2000 1950 2000 2000
+$Comp
+L Device:R R?
+U 1 1 6086F9BC
+P 2175 1950
+AR Path="/6086F9BC" Ref="R?"  Part="1" 
+AR Path="/5C8C5FC0/6086F9BC" Ref="R?"  Part="1" 
+AR Path="/5D60ED9A/6086F9BC" Ref="R?"  Part="1" 
+AR Path="/60565919/6086F9BC" Ref="R?"  Part="1" 
+AR Path="/607E07E1/6086F9BC" Ref="R?"  Part="1" 
+F 0 "R?" V 2175 1950 50  0000 C CNN
+F 1 "22k" V 2275 1950 50  0000 C CNN
+F 2 "AJ:R_0805_AJ" V 2105 1950 50  0001 C CNN
+F 3 "~" H 2175 1950 50  0001 C CNN
+	1    2175 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 6086F9C6
+P 2000 2150
+AR Path="/5C8BFBBC/6086F9C6" Ref="D?"  Part="1" 
+AR Path="/5C8C5FC0/6086F9C6" Ref="D?"  Part="1" 
+AR Path="/5D60ED9A/6086F9C6" Ref="D?"  Part="1" 
+AR Path="/60565919/6086F9C6" Ref="D?"  Part="1" 
+AR Path="/6086F9C6" Ref="D?"  Part="1" 
+AR Path="/607E07E1/6086F9C6" Ref="D?"  Part="1" 
+F 0 "D?" V 2075 2375 50  0000 R CNN
+F 1 "On LED" V 2000 2425 50  0000 R CNN
+F 2 "AJ:D_0805_AJ" H 2000 2150 50  0001 C CNN
+F 3 "~" H 2000 2150 50  0001 C CNN
+	1    2000 2150
+	0    -1   -1   0   
+$EndComp
+Connection ~ 2000 2350
+Wire Wire Line
+	2325 1950 2400 1950
+Connection ~ 2400 1950
+$Comp
+L Device:R_POT RV?
+U 1 1 6088289A
+P 2375 5950
+AR Path="/6165D4D0/6088289A" Ref="RV?"  Part="1" 
+AR Path="/607E07E1/6088289A" Ref="RV?"  Part="1" 
+F 0 "RV?" H 2306 5996 50  0000 R CNN
+F 1 "100k" H 2306 5905 50  0000 R CNN
+F 2 "AJ:Potentiometer_China_RK09_Single_Vertical_AJ" H 2375 5950 50  0001 C CNN
+F 3 "~" H 2375 5950 50  0001 C CNN
+	1    2375 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2375 5575 2375 5800
+$Comp
+L Device:R R?
+U 1 1 608828A5
+P 2700 5750
+AR Path="/608828A5" Ref="R?"  Part="1" 
+AR Path="/5C8C5FC0/608828A5" Ref="R?"  Part="1" 
+AR Path="/5D60ED9A/608828A5" Ref="R?"  Part="1" 
+AR Path="/60565919/608828A5" Ref="R?"  Part="1" 
+AR Path="/6165D4D0/608828A5" Ref="R?"  Part="1" 
+AR Path="/607E07E1/608828A5" Ref="R?"  Part="1" 
+F 0 "R?" V 2700 5700 50  0000 C CNN
+F 1 "OPEN" V 2584 5750 50  0000 C CNN
+F 2 "AJ:R_0805_AJ" V 2630 5750 50  0001 C CNN
+F 3 "~" H 2700 5750 50  0001 C CNN
+	1    2700 5750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2525 5950 2700 5950
+Wire Wire Line
+	2700 5950 2700 5900
+Wire Wire Line
+	2700 5575 2375 5575
+Wire Wire Line
+	2700 5600 2700 5575
+$Comp
+L Device:R R?
+U 1 1 60887755
+P 2700 6175
+AR Path="/60887755" Ref="R?"  Part="1" 
+AR Path="/5C8C5FC0/60887755" Ref="R?"  Part="1" 
+AR Path="/5D60ED9A/60887755" Ref="R?"  Part="1" 
+AR Path="/60565919/60887755" Ref="R?"  Part="1" 
+AR Path="/6165D4D0/60887755" Ref="R?"  Part="1" 
+AR Path="/607E07E1/60887755" Ref="R?"  Part="1" 
+F 0 "R?" V 2700 6125 50  0000 C CNN
+F 1 "OPEN" V 2584 6175 50  0000 C CNN
+F 2 "AJ:R_0805_AJ" V 2630 6175 50  0001 C CNN
+F 3 "~" H 2700 6175 50  0001 C CNN
+	1    2700 6175
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2700 5950 2700 6025
+Wire Wire Line
+	2700 6375 2375 6375
+Wire Wire Line
+	2375 6100 2375 6375
+Wire Wire Line
+	2700 6325 2700 6375
+Connection ~ 2700 5950
+$Comp
+L Connector:Conn_01x03_Male J?
+U 1 1 60889921
+P 3300 5950
+F 0 "J?" H 3272 5974 50  0000 R CNN
+F 1 "Conn_01x03_Male" H 3272 5883 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3300 5950 50  0001 C CNN
+F 3 "~" H 3300 5950 50  0001 C CNN
+	1    3300 5950
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 6050 3100 6375
+Wire Wire Line
+	3100 6375 2700 6375
+Connection ~ 2700 6375
+Wire Wire Line
+	3100 5850 3100 5575
+Wire Wire Line
+	3100 5575 2700 5575
+Connection ~ 2700 5575
+Wire Wire Line
+	3100 5950 2700 5950
 $EndSCHEMATC
