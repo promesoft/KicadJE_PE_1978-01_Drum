@@ -220,10 +220,6 @@ Wire Wire Line
 	7175 6175 7575 6175
 Wire Wire Line
 	7575 5975 7575 6175
-Wire Wire Line
-	7675 5975 7575 5975
-Wire Wire Line
-	7675 5575 7575 5575
 $Comp
 L power:GND #PWR0113
 U 1 1 6076279B
@@ -2533,17 +2529,6 @@ Wire Wire Line
 Connection ~ 4800 6475
 Wire Wire Line
 	4800 6475 4875 6475
-$Comp
-L Doepfer_Power_14pin:Doepfer_Power_16pin P101
-U 1 1 61739A83
-P 8025 5675
-F 0 "P101" H 8025 5010 50  0000 C CNN
-F 1 "Doepfer_Power_16pin" H 8025 5101 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 8025 5675 50  0001 C CNN
-F 3 "DOCUMENTATION" H 8025 5675 50  0001 C CNN
-	1    8025 5675
-	-1   0    0    1   
-$EndComp
 Connection ~ 8775 5375
 Wire Wire Line
 	8575 5775 8775 5775
@@ -2567,8 +2552,6 @@ Wire Wire Line
 	8375 6250 8375 6175
 Connection ~ 7575 6175
 Connection ~ 8375 6175
-Wire Wire Line
-	8375 5575 8475 5575
 Wire Wire Line
 	8475 5575 8475 5375
 Wire Wire Line
@@ -2594,11 +2577,7 @@ F 3 "~" H 8575 4800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	7675 5475 7625 5475
-Wire Wire Line
 	7625 5475 7625 4800
-Wire Wire Line
-	8375 5475 8425 5475
 Wire Wire Line
 	8425 4800 8425 5475
 Connection ~ 8425 4800
@@ -2660,7 +2639,7 @@ F 3 "~" H 9200 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8850 4800 9200 4800
+	8850 4800 9000 4800
 Wire Wire Line
 	9200 5100 9200 5125
 Wire Wire Line
@@ -2668,4 +2647,53 @@ Wire Wire Line
 Connection ~ 8850 5125
 Wire Wire Line
 	8850 5125 8850 5100
+$Comp
+L Eurorack:HEADER_2x8_Doepfer P101
+U 1 1 6082CE5A
+P 8025 5675
+F 0 "P101" H 8025 4977 40  0000 C CNN
+F 1 "HEADER_2x8_Doepfer" H 8025 5053 40  0000 C CNN
+F 2 "HEADER_2x8" H 8025 5144 60  0000 C CNN
+F 3 "" H 8025 5675 60  0000 C CNN
+	1    8025 5675
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7625 5475 7875 5475
+Wire Wire Line
+	7575 5575 7875 5575
+Wire Wire Line
+	7675 5675 7875 5675
+Wire Wire Line
+	7675 5875 7875 5875
+Wire Wire Line
+	7875 5775 7675 5775
+Wire Wire Line
+	7575 5975 7875 5975
+Wire Wire Line
+	8175 5975 8375 5975
+Wire Wire Line
+	8375 5875 8175 5875
+Wire Wire Line
+	8375 5675 8175 5675
+Wire Wire Line
+	8175 5775 8375 5775
+Wire Wire Line
+	8175 5575 8475 5575
+Wire Wire Line
+	8175 5475 8425 5475
+$Comp
+L power:PWR_FLAG #FLG0104
+U 1 1 609C6001
+P 9000 4800
+F 0 "#FLG0104" H 9000 4875 50  0001 C CNN
+F 1 "PWR_FLAG" H 9000 4973 50  0000 C CNN
+F 2 "" H 9000 4800 50  0001 C CNN
+F 3 "~" H 9000 4800 50  0001 C CNN
+	1    9000 4800
+	1    0    0    -1  
+$EndComp
+Connection ~ 9000 4800
+Wire Wire Line
+	9000 4800 9200 4800
 $EndSCHEMATC
