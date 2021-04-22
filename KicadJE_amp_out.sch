@@ -119,7 +119,7 @@ AR Path="/61681753" Ref="C?"  Part="1"
 AR Path="/6165D4D0/61681753" Ref="C301"  Part="1" 
 F 0 "C301" H 1190 1146 50  0000 L CNN
 F 1 "4n7" H 1190 1055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1113 950 50  0001 C CNN
+F 2 "AJ:C_0805_AJ" H 1113 950 50  0001 C CNN
 F 3 "~" H 1075 1100 50  0001 C CNN
 	1    1075 1100
 	0    1    1    0   
@@ -224,7 +224,7 @@ AR Path="/6170F814" Ref="C?"  Part="1"
 AR Path="/6165D4D0/6170F814" Ref="C302"  Part="1" 
 F 0 "C302" H 1340 2546 50  0000 L CNN
 F 1 "4n7" H 1340 2455 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1263 2350 50  0001 C CNN
+F 2 "AJ:C_0805_AJ" H 1263 2350 50  0001 C CNN
 F 3 "~" H 1225 2500 50  0001 C CNN
 	1    1225 2500
 	-1   0    0    1   
@@ -349,7 +349,7 @@ AR Path="/61A91797" Ref="C?"  Part="1"
 AR Path="/6165D4D0/61A91797" Ref="C303"  Part="1" 
 F 0 "C303" H 2315 5146 50  0000 L CNN
 F 1 "220n" H 2315 5055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2238 4950 50  0001 C CNN
+F 2 "AJ:C_0805_AJ" H 2238 4950 50  0001 C CNN
 F 3 "~" H 2200 5100 50  0001 C CNN
 	1    2200 5100
 	0    1    1    0   
@@ -533,17 +533,6 @@ F 3 "~" H 5150 4200 50  0001 C CNN
 	1    5150 4200
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Device:R_POT RV301
-U 1 1 61BB7D8E
-P 4700 4200
-F 0 "RV301" H 4631 4246 50  0000 R CNN
-F 1 "R_POT" H 4631 4155 50  0000 R CNN
-F 2 "AJ:Potentiometer_China_RK09_Single_Vertical_AJ" H 4700 4200 50  0001 C CNN
-F 3 "~" H 4700 4200 50  0001 C CNN
-	1    4700 4200
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	5425 4200 5300 4200
 $Comp
@@ -567,12 +556,7 @@ Wire Wire Line
 Wire Wire Line
 	4325 4800 4325 4200
 Wire Wire Line
-	4325 4200 4550 4200
-Wire Wire Line
-	4850 4200 5000 4200
-Wire Wire Line
 	4325 4200 4250 4200
-Connection ~ 4325 4200
 Wire Wire Line
 	5000 4900 5425 4900
 Wire Wire Line
@@ -695,30 +679,6 @@ Wire Wire Line
 	2300 4575 2300 4525
 Wire Wire Line
 	2300 4525 2450 4525
-$Comp
-L Device:R R?
-U 1 1 61BE0178
-P 4500 3875
-AR Path="/61BE0178" Ref="R?"  Part="1" 
-AR Path="/5C8C5FC0/61BE0178" Ref="R?"  Part="1" 
-AR Path="/5D60ED9A/61BE0178" Ref="R?"  Part="1" 
-AR Path="/60565919/61BE0178" Ref="R?"  Part="1" 
-AR Path="/6165D4D0/61BE0178" Ref="R315"  Part="1" 
-F 0 "R315" V 4500 3825 50  0000 C CNN
-F 1 "0R" V 4384 3875 50  0000 C CNN
-F 2 "AJ:R_0805_AJ" V 4430 3875 50  0001 C CNN
-F 3 "~" H 4500 3875 50  0001 C CNN
-	1    4500 3875
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4700 4050 4700 3875
-Wire Wire Line
-	4700 3875 4650 3875
-Wire Wire Line
-	4325 3875 4325 4200
-Wire Wire Line
-	4350 3875 4325 3875
 $Comp
 L Connector:AudioJack2_SwitchT J?
 U 1 1 61BE2ABB
@@ -866,4 +826,7 @@ Wire Wire Line
 	10000 1775 9800 1775
 Wire Wire Line
 	9800 1675 10000 1675
+Wire Wire Line
+	4325 4200 5000 4200
+Connection ~ 4325 4200
 $EndSCHEMATC
