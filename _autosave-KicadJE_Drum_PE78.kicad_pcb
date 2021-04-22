@@ -2520,6 +2520,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${GITHUB_LIB_DIR}/aj_packages3d/3D/Connectors/PJ398SM.step
+      (offset (xyz 0 -6 9))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 180))
+    )
   )
 
   (module Connector_Audio:Jack_3.5mm_Switronic_ST-005-G_horizontal (layer F.Cu) (tedit 5D744875) (tstamp 6081051A)
@@ -2569,6 +2574,11 @@
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
+    )
+    (model ${GITHUB_LIB_DIR}/aj_packages3d/kicad-packages3D/Connector_BarrelJack.3dshapes/CUI_SJ-43614-SMT-TR.step
+      (offset (xyz -6 0 2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 90))
     )
   )
 
@@ -6567,6 +6577,11 @@
     )
     (model C:/Users/anders/Documents/KiCad/Lib/aj_packages3d/3D/Potentiometers/RK097N.step
       (offset (xyz 7.5 2.5 7))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 90))
+    )
+    (model ${GITHUB_LIB_DIR}/aj_packages3d/3D/Potentiometers/RK097N.step
+      (offset (xyz 8 2.5 6))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
     )

@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source E:\Doc2021\GitHub\KicadJE_PE_1978-01_Drum\KicadJE_Drum_PE78.sch)
-    (date "21/04/2021 23:10:55")
+    (date "22/04/2021 00:04:46")
     (tool "Eeschema (5.1.9)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -95,7 +95,7 @@
       (tstamp 605ABC2E))
     (comp (ref U101)
       (value 74HC04)
-      (footprint AJ:AJ_SO-14_5.3x6.2mm_P1.27mm)
+      (footprint Package_SO:SO-14_5.3x10.2mm_P1.27mm)
       (datasheet https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf)
       (libsource (lib 74xx) (part 74HC04) (description "Hex Inverter"))
       (sheetpath (names /) (tstamps /))
@@ -816,7 +816,7 @@
       (tstamp 608295AC))
     (comp (ref P101)
       (value HEADER_2x8_Doepfer)
-      (footprint HEADER_2x8)
+      (footprint Connector_IDC:IDC-Header_2x08_P2.54mm_Vertical)
       (libsource (lib Eurorack) (part HEADER_2x8_Doepfer) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 6082CE5A))

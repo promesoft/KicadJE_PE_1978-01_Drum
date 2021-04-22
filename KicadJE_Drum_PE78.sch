@@ -248,7 +248,7 @@ U 1 1 60767BEF
 P 3875 725
 F 0 "U101" H 3875 1042 50  0000 C CNN
 F 1 "74HC04" H 3875 951 50  0000 C CNN
-F 2 "AJ:AJ_SO-14_5.3x6.2mm_P1.27mm" H 3875 725 50  0001 C CNN
+F 2 "Package_SO:SO-14_5.3x10.2mm_P1.27mm" H 3875 725 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 3875 725 50  0001 C CNN
 	1    3875 725 
 	1    0    0    -1  
@@ -259,7 +259,7 @@ U 2 1 60768FE4
 P 8500 725
 F 0 "U101" H 8500 1042 50  0000 C CNN
 F 1 "74HC04" H 8500 951 50  0000 C CNN
-F 2 "AJ:AJ_SO-14_5.3x6.2mm_P1.27mm" H 8500 725 50  0001 C CNN
+F 2 "Package_SO:SO-14_5.3x10.2mm_P1.27mm" H 8500 725 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 8500 725 50  0001 C CNN
 	2    8500 725 
 	1    0    0    -1  
@@ -270,7 +270,7 @@ U 3 1 60769478
 P 3875 2550
 F 0 "U101" H 3875 2867 50  0000 C CNN
 F 1 "74HC04" H 3875 2776 50  0000 C CNN
-F 2 "AJ:AJ_SO-14_5.3x6.2mm_P1.27mm" H 3875 2550 50  0001 C CNN
+F 2 "Package_SO:SO-14_5.3x10.2mm_P1.27mm" H 3875 2550 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 3875 2550 50  0001 C CNN
 	3    3875 2550
 	1    0    0    -1  
@@ -281,7 +281,7 @@ U 4 1 6076A7A6
 P 8450 2525
 F 0 "U101" H 8450 2842 50  0000 C CNN
 F 1 "74HC04" H 8450 2751 50  0000 C CNN
-F 2 "AJ:AJ_SO-14_5.3x6.2mm_P1.27mm" H 8450 2525 50  0001 C CNN
+F 2 "Package_SO:SO-14_5.3x10.2mm_P1.27mm" H 8450 2525 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 8450 2525 50  0001 C CNN
 	4    8450 2525
 	1    0    0    -1  
@@ -292,7 +292,7 @@ U 7 1 6076D397
 P 10675 5575
 F 0 "U101" H 10905 5621 50  0000 L CNN
 F 1 "74HC04" H 10905 5530 50  0000 L CNN
-F 2 "AJ:AJ_SO-14_5.3x6.2mm_P1.27mm" H 10675 5575 50  0001 C CNN
+F 2 "Package_SO:SO-14_5.3x10.2mm_P1.27mm" H 10675 5575 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 10675 5575 50  0001 C CNN
 	7    10675 5575
 	1    0    0    -1  
@@ -2653,7 +2653,7 @@ U 1 1 6082CE5A
 P 8025 5675
 F 0 "P101" H 8025 4977 40  0000 C CNN
 F 1 "HEADER_2x8_Doepfer" H 8025 5053 40  0000 C CNN
-F 2 "HEADER_2x8" H 8025 5144 60  0000 C CNN
+F 2 "Connector_IDC:IDC-Header_2x08_P2.54mm_Vertical" H 8025 5144 60  0000 C CNN
 F 3 "" H 8025 5675 60  0000 C CNN
 	1    8025 5675
 	-1   0    0    1   
