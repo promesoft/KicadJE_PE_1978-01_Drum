@@ -24,8 +24,8 @@ Output Audio
 ## Initial 
 | Stage  | Detail | Status |
 | ------------- | ------------- | ------------- |
-| create material  | sch |  |
-| | pcb |  |
+| create material  | sch | ongoing |
+| | pcb | ongoing |
 | | gerber |  |
 | production  |   |  |
 |  | produced |  |
