@@ -5,11 +5,9 @@ Based on https://worldradiohistory.com/UK/Practical-Electronics/70s/Practical-El
 
 ## Board 1 - Drum module
 Adjustment:
-
 Mix of snare amt
 
 Gate Input
-
 TTL Square
 
 Output Audio  
@@ -17,15 +15,11 @@ Output Audio
 
 ## Board 2 - Breadboard helper
 Adjustment:
-
 100k Pot to pinheader
-
 Push button to pinheader
 
 Input/Output:
-
 3,5mm jack to pinheader
-
 +-12V from Eurorach 10pin IDC to breadboard pinheaders
 
 # Status - Sch and PCB being established
