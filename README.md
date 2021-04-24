@@ -20,7 +20,7 @@ Output Audio
 +/- 10V DC coupled
 
 
-# Status - 
+# Status - Sch and PCB being established
 ## Initial 
 | Stage  | Detail | Status |
 | ------------- | ------------- | ------------- |
