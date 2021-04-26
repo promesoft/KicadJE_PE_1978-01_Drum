@@ -2333,17 +2333,6 @@ F 3 "~" H 6300 6375 50  0001 C CNN
 	1    6300 6375
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Device:L L101
-U 1 1 6121074D
-P 4575 5325
-F 0 "L101" H 4627 5371 50  0000 L CNN
-F 1 "100mH" H 4450 5175 50  0000 L CNN
-F 2 "Inductor_THT:L_Radial_D7.5mm_P3.50mm_Fastron_07P" H 4575 5325 50  0001 C CNN
-F 3 "~" H 4575 5325 50  0001 C CNN
-	1    4575 5325
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4575 5550 4575 5475
 Wire Wire Line
@@ -2379,17 +2368,6 @@ Wire Wire Line
 	4325 6575 4325 6475
 Wire Wire Line
 	4325 6475 4600 6475
-$Comp
-L Device:L L102
-U 1 1 6122F538
-P 4600 6700
-F 0 "L102" H 4652 6746 50  0000 L CNN
-F 1 "100mH" H 4475 6525 50  0000 L CNN
-F 2 "Inductor_THT:L_Radial_D7.5mm_P3.50mm_Fastron_07P" H 4600 6700 50  0001 C CNN
-F 3 "~" H 4600 6700 50  0001 C CNN
-	1    4600 6700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4600 6925 4600 6850
 Wire Wire Line
