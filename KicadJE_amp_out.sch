@@ -127,15 +127,15 @@ $EndComp
 $Comp
 L Connector:AudioJack2_SwitchT J?
 U 1 1 61681759
-P 2800 1100
+P 3250 1100
 AR Path="/607E07E1/61681759" Ref="J?"  Part="1" 
 AR Path="/61681759" Ref="J?"  Part="1" 
 AR Path="/6165D4D0/61681759" Ref="J302"  Part="1" 
-F 0 "J302" H 2620 1125 50  0000 R CNN
-F 1 "RND" H 2620 1034 50  0000 R CNN
-F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 2800 1100 50  0001 C CNN
-F 3 "~" H 2800 1100 50  0001 C CNN
-	1    2800 1100
+F 0 "J302" H 3070 1125 50  0000 R CNN
+F 1 "RND" H 3070 1034 50  0000 R CNN
+F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 3250 1100 50  0001 C CNN
+F 3 "~" H 3250 1100 50  0001 C CNN
+	1    3250 1100
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
@@ -302,23 +302,17 @@ Wire Wire Line
 $Comp
 L Connector:AudioJack2_SwitchT J?
 U 1 1 61A8618F
-P 2800 2225
+P 3250 2225
 AR Path="/607E07E1/61A8618F" Ref="J?"  Part="1" 
 AR Path="/61A8618F" Ref="J?"  Part="1" 
 AR Path="/6165D4D0/61A8618F" Ref="J303"  Part="1" 
-F 0 "J303" H 2620 2250 50  0000 R CNN
-F 1 "TONE" H 2620 2159 50  0000 R CNN
-F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 2800 2225 50  0001 C CNN
-F 3 "~" H 2800 2225 50  0001 C CNN
-	1    2800 2225
+F 0 "J303" H 3070 2250 50  0000 R CNN
+F 1 "Noise" H 3070 2159 50  0000 R CNN
+F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 3250 2225 50  0001 C CNN
+F 3 "~" H 3250 2225 50  0001 C CNN
+	1    3250 2225
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	2200 1000 2600 1000
-Wire Wire Line
-	2175 1100 2600 1100
-Wire Wire Line
-	2600 2125 2200 2125
 Wire Wire Line
 	2200 2125 2200 1400
 Connection ~ 2200 1400
@@ -829,4 +823,25 @@ Wire Wire Line
 Wire Wire Line
 	4325 4200 5000 4200
 Connection ~ 4325 4200
+$Comp
+L Device:C C?
+U 1 1 6089BC96
+P 2750 2225
+AR Path="/6089BC96" Ref="C?"  Part="1" 
+AR Path="/6165D4D0/6089BC96" Ref="C304"  Part="1" 
+F 0 "C304" H 2865 2271 50  0000 L CNN
+F 1 "220n" H 2865 2180 50  0000 L CNN
+F 2 "AJ:C_0805_AJ" H 2788 2075 50  0001 C CNN
+F 3 "~" H 2750 2225 50  0001 C CNN
+	1    2750 2225
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2900 2225 3050 2225
+Wire Wire Line
+	2200 2125 3050 2125
+Wire Wire Line
+	2175 1100 3050 1100
+Wire Wire Line
+	2200 1000 3050 1000
 $EndSCHEMATC

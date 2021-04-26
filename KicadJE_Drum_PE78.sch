@@ -1752,8 +1752,6 @@ F 3 "" H 10675 6150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	10675 6150 10675 6075
-Text Notes 5000 8950 0    157  ~ 0
-HUSK NU AT LAVE +5V !!!!!!!!!!
 $Comp
 L Device:C C101
 U 1 1 60E1473D

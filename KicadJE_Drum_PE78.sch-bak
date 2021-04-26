@@ -2696,4 +2696,10 @@ $EndComp
 Connection ~ 9000 4800
 Wire Wire Line
 	9000 4800 9200 4800
+Text Label 7675 5575 0    50   ~ 0
++12
+Text Label 7675 5975 0    50   ~ 0
+-12
+Text Label 7675 5475 0    50   ~ 0
++5
 $EndSCHEMATC
