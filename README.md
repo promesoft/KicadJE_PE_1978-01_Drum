@@ -3,24 +3,26 @@ Based on https://worldradiohistory.com/UK/Practical-Electronics/70s/Practical-El
 
 # Purpose
 
-## Board 1
-Adjustment:
+## Board 1 - Drum module
+Adjustment:  
+Mix of snare amt
 
-Gate Input
-TTL ?
-0-10V ?
+Gate Input:  
+TTL Square
 
-CV Input
-0-10V 
+Output Audio:  
++/- 10V AC coupled
 
-Input Audio 
-+/- 10V DC coupled
+## Board 2 - Breadboard helper
+Adjustment:  
+100k Pot to pinheader  
+Push button to pinheader
 
-Output Audio  
-+/- 10V DC coupled
+Input/Output:  
+3,5mm jack to pinheader  
++-12V from Eurorack 10pin IDC to breadboard pinheaders
 
-
-# Status - 
+# Status - Sch and PCB being established
 ## Initial 
 | Stage  | Detail | Status |
 | ------------- | ------------- | ------------- |
