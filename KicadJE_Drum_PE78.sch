@@ -2700,4 +2700,21 @@ Text Label 7675 5975 0    50   ~ 0
 -12
 Text Label 7675 5475 0    50   ~ 0
 +5
+$Comp
+L Amplifier_Operational:TL072 U?
+U 3 1 608BB6D8
+P 9725 5750
+AR Path="/6165D4D0/608BB6D8" Ref="U?"  Part="2" 
+AR Path="/608BB6D8" Ref="U302"  Part="3" 
+F 0 "U302" H 9500 5600 50  0000 C CNN
+F 1 "TL072" H 9500 5750 50  0000 C CNN
+F 2 "AJ:AJ_SO-8_5.3x6.2mm_P1.27mm" H 9725 5750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 9725 5750 50  0001 C CNN
+	3    9725 5750
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9825 6175 9825 6050
+Wire Wire Line
+	9825 5450 9825 5375
 $EndSCHEMATC
