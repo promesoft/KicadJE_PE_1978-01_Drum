@@ -401,7 +401,7 @@ Connection ~ 5525 2475
 Wire Wire Line
 	5525 2300 5600 2300
 Wire Wire Line
-	3600 2350 4275 2350
+	3600 2350 3975 2350
 Wire Wire Line
 	3600 1950 3975 1950
 Wire Wire Line
@@ -633,12 +633,17 @@ Wire Wire Line
 	3975 2750 3975 2700
 Wire Wire Line
 	3975 2000 3975 1950
-Wire Wire Line
-	3975 2400 3975 2300
 Connection ~ 3975 2750
 Wire Wire Line
 	3975 2750 4275 2750
 Connection ~ 3975 1950
 Wire Wire Line
 	3975 1950 4275 1950
+Wire Wire Line
+	3975 2300 3975 2350
+Connection ~ 3975 2350
+Wire Wire Line
+	3975 2350 4275 2350
+Wire Wire Line
+	3975 2350 3975 2400
 $EndSCHEMATC

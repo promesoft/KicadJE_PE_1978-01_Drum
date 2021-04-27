@@ -838,7 +838,7 @@ Wire Wire Line
 Wire Wire Line
 	2200 2125 3050 2125
 Wire Wire Line
-	2175 1100 3050 1100
+	2175 1100 2575 1100
 Wire Wire Line
 	2200 1000 3050 1000
 Wire Wire Line
@@ -862,4 +862,22 @@ F 3 "~" H 5650 4900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5800 4900 6125 4900
+$Comp
+L Device:R R?
+U 1 1 60B239DF
+P 2725 1100
+AR Path="/60B239DF" Ref="R?"  Part="1" 
+AR Path="/5C8C5FC0/60B239DF" Ref="R?"  Part="1" 
+AR Path="/5D60ED9A/60B239DF" Ref="R?"  Part="1" 
+AR Path="/60565919/60B239DF" Ref="R?"  Part="1" 
+AR Path="/6165D4D0/60B239DF" Ref="R323"  Part="1" 
+F 0 "R323" V 2725 1050 50  0000 C CNN
+F 1 "470R" V 2675 900 50  0000 C CNN
+F 2 "AJ:R_0805_AJ" V 2655 1100 50  0001 C CNN
+F 3 "~" H 2725 1100 50  0001 C CNN
+	1    2725 1100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2875 1100 3050 1100
 $EndSCHEMATC

@@ -2450,9 +2450,6 @@ Wire Wire Line
 Connection ~ 1200 6450
 Wire Wire Line
 	1100 5800 1200 5800
-Connection ~ 1200 5800
-Wire Wire Line
-	1200 5800 1200 5025
 Wire Wire Line
 	1200 6450 1200 6625
 $Sheet
