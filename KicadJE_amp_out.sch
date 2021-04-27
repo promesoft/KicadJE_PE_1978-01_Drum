@@ -676,38 +676,35 @@ Wire Wire Line
 $Comp
 L Connector:AudioJack2_SwitchT J?
 U 1 1 61BE2ABB
-P 6000 4900
+P 6325 4900
 AR Path="/607E07E1/61BE2ABB" Ref="J?"  Part="1" 
 AR Path="/61BE2ABB" Ref="J?"  Part="1" 
 AR Path="/6165D4D0/61BE2ABB" Ref="J304"  Part="1" 
-F 0 "J304" H 5820 4925 50  0000 R CNN
-F 1 "DRUM_OUT" H 5820 4834 50  0000 R CNN
-F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 6000 4900 50  0001 C CNN
-F 3 "~" H 6000 4900 50  0001 C CNN
-	1    6000 4900
+F 0 "J304" H 6145 4925 50  0000 R CNN
+F 1 "DRUM_OUT" H 6145 4834 50  0000 R CNN
+F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 6325 4900 50  0001 C CNN
+F 3 "~" H 6325 4900 50  0001 C CNN
+	1    6325 4900
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	5425 4900 5800 4900
-Connection ~ 5425 4900
 $Comp
 L power:GND #PWR?
 U 1 1 61BE53DA
-P 5650 5100
+P 5975 5100
 AR Path="/61BE53DA" Ref="#PWR?"  Part="1" 
 AR Path="/607E07E1/61BE53DA" Ref="#PWR?"  Part="1" 
 AR Path="/6165D4D0/61BE53DA" Ref="#PWR0306"  Part="1" 
-F 0 "#PWR0306" H 5650 4850 50  0001 C CNN
-F 1 "GND" H 5655 4927 50  0000 C CNN
-F 2 "" H 5650 5100 50  0001 C CNN
-F 3 "" H 5650 5100 50  0001 C CNN
-	1    5650 5100
+F 0 "#PWR0306" H 5975 4850 50  0001 C CNN
+F 1 "GND" H 5980 4927 50  0000 C CNN
+F 2 "" H 5975 5100 50  0001 C CNN
+F 3 "" H 5975 5100 50  0001 C CNN
+	1    5975 5100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5800 4800 5650 4800
+	6125 4800 5975 4800
 Wire Wire Line
-	5650 4800 5650 5100
+	5975 4800 5975 5100
 Text GLabel 9800 1775 0    47   Input ~ 0
 NoiseOut
 Text GLabel 2950 2550 2    47   Input ~ 0
@@ -844,4 +841,25 @@ Wire Wire Line
 	2175 1100 3050 1100
 Wire Wire Line
 	2200 1000 3050 1000
+Wire Wire Line
+	5425 4900 5500 4900
+Connection ~ 5425 4900
+$Comp
+L Device:R R?
+U 1 1 609EDEE3
+P 5650 4900
+AR Path="/609EDEE3" Ref="R?"  Part="1" 
+AR Path="/5C8C5FC0/609EDEE3" Ref="R?"  Part="1" 
+AR Path="/5D60ED9A/609EDEE3" Ref="R?"  Part="1" 
+AR Path="/60565919/609EDEE3" Ref="R?"  Part="1" 
+AR Path="/6165D4D0/609EDEE3" Ref="R315"  Part="1" 
+F 0 "R315" V 5650 4850 50  0000 C CNN
+F 1 "470r" V 5534 4900 50  0000 C CNN
+F 2 "AJ:R_0805_AJ" V 5580 4900 50  0001 C CNN
+F 3 "~" H 5650 4900 50  0001 C CNN
+	1    5650 4900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5800 4900 6125 4900
 $EndSCHEMATC
