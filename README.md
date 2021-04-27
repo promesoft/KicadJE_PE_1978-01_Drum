@@ -22,6 +22,10 @@ Input/Output:
 3,5mm jack to pinheader  
 +-12V from Eurorack 10pin IDC to breadboard pinheaders
 
+## Board 3 - Desktop PDU for Eurojack
+Banana jack in  
+16 pin Euro power out
+
 # Status - Sch and PCB being established
 ## Initial 
 | Stage  | Detail | Status |
