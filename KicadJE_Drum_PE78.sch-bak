@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 1 4
 Title ""
 Date ""
 Rev ""
@@ -2692,4 +2692,10 @@ Wire Wire Line
 	9825 6175 9825 6050
 Wire Wire Line
 	9825 5450 9825 5375
+$Sheet
+S 10125 2250 750  500 
+U 60B70687
+F0 "KicadJE_PDU_1" 50
+F1 "KicadJE_PDU_1.sch" 50
+$EndSheet
 $EndSCHEMATC

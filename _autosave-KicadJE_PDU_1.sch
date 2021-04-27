@@ -236,28 +236,6 @@ F 3 "" H 8400 6200 50  0001 C CNN
 	1    8400 6200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8400 6200 8400 6175
-$Comp
-L Device:C C?
-U 1 1 60B7CF3C
-P 8750 6000
-AR Path="/60B7CF3C" Ref="C?"  Part="1" 
-AR Path="/60B70687/60B7CF3C" Ref="C404"  Part="1" 
-F 0 "C404" H 8865 6046 50  0000 L CNN
-F 1 "100n" H 8865 5955 50  0000 L CNN
-F 2 "AJ:C_0805_AJ" H 8788 5850 50  0001 C CNN
-F 3 "~" H 8750 6000 50  0001 C CNN
-	1    8750 6000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8750 6150 8750 6175
-Wire Wire Line
-	8750 6175 8400 6175
-Connection ~ 8400 6175
-Wire Wire Line
-	8400 6175 8400 6150
 $Comp
 L Eurorack:HEADER_2x8_Doepfer P?
 U 1 1 60B7CF47
@@ -448,8 +426,6 @@ Wire Wire Line
 	8275 4675 8950 4675
 Wire Wire Line
 	8275 5475 8950 5475
-Wire Wire Line
-	8400 5850 8750 5850
 $Comp
 L power:+5V #PWR?
 U 1 1 60BCE787
@@ -463,7 +439,6 @@ F 3 "" H 8400 5825 50  0001 C CNN
 	1    8400 5825
 	1    0    0    -1  
 $EndComp
-Connection ~ 8400 5850
 $Comp
 L Device:C C?
 U 1 1 60B7CF2E
@@ -536,8 +511,8 @@ AR Path="/60BF3B8D" Ref="R?"  Part="1"
 AR Path="/5C8C5FC0/60BF3B8D" Ref="R?"  Part="1" 
 AR Path="/5D60ED9A/60BF3B8D" Ref="R?"  Part="1" 
 AR Path="/60565919/60BF3B8D" Ref="R?"  Part="1" 
-AR Path="/60B70687/60BF3B8D" Ref="R?"  Part="1" 
-F 0 "R?" V 8950 3625 50  0000 C CNN
+AR Path="/60B70687/60BF3B8D" Ref="R407"  Part="1" 
+F 0 "R407" V 8950 3625 50  0000 C CNN
 F 1 "10R" V 8900 3800 50  0000 C CNN
 F 2 "AJ:R_0805_AJ" V 8880 3675 50  0001 C CNN
 F 3 "~" H 8950 3675 50  0001 C CNN
@@ -552,8 +527,8 @@ AR Path="/60BF439B" Ref="R?"  Part="1"
 AR Path="/5C8C5FC0/60BF439B" Ref="R?"  Part="1" 
 AR Path="/5D60ED9A/60BF439B" Ref="R?"  Part="1" 
 AR Path="/60565919/60BF439B" Ref="R?"  Part="1" 
-AR Path="/60B70687/60BF439B" Ref="R?"  Part="1" 
-F 0 "R?" V 8950 3725 50  0000 C CNN
+AR Path="/60B70687/60BF439B" Ref="R408"  Part="1" 
+F 0 "R408" V 8950 3725 50  0000 C CNN
 F 1 "10R" V 8900 3900 50  0000 C CNN
 F 2 "AJ:R_0805_AJ" V 8880 3775 50  0001 C CNN
 F 3 "~" H 8950 3775 50  0001 C CNN
@@ -568,8 +543,8 @@ AR Path="/60BF4532" Ref="R?"  Part="1"
 AR Path="/5C8C5FC0/60BF4532" Ref="R?"  Part="1" 
 AR Path="/5D60ED9A/60BF4532" Ref="R?"  Part="1" 
 AR Path="/60565919/60BF4532" Ref="R?"  Part="1" 
-AR Path="/60B70687/60BF4532" Ref="R?"  Part="1" 
-F 0 "R?" V 8950 3925 50  0000 C CNN
+AR Path="/60B70687/60BF4532" Ref="R409"  Part="1" 
+F 0 "R409" V 8950 3925 50  0000 C CNN
 F 1 "10R" V 8900 4075 50  0000 C CNN
 F 2 "AJ:R_0805_AJ" V 8880 3975 50  0001 C CNN
 F 3 "~" H 8950 3975 50  0001 C CNN
@@ -578,4 +553,6 @@ F 3 "~" H 8950 3975 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8375 3875 9100 3875
+Wire Wire Line
+	8400 6150 8400 6200
 $EndSCHEMATC
