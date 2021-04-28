@@ -58,12 +58,9 @@ Banana jack in
 ### 
 
 # Pictures
-
 ![back](KicadJE_Drum_PE78_Back1.png)
-
-![KicadJE_Drum_PE78_Front1.png](KicadJE_Drum_PE78_Front1.png)
-
-![](KicadJE_Drum_PE78_Face)
+![](KicadJE_Drum_PE78_Front1.png)
+![](KicadJE_Drum_PE78_Face.png)
 
 # Schematic
 ## Sch 1
