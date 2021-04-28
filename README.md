@@ -69,6 +69,7 @@ Banana jack in
 # Analysis
 ## Diag 1
 ![](.pdf)
+https://worldradiohistory.com/UK/Practical-Electronics/70s/Practical-Electronics-1978-01.pdf
 
 ## Prototype
 ![](.jpg)
