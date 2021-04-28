@@ -58,20 +58,19 @@ Banana jack in
 ### 
 
 # Pictures
-
+![](KicadJE_Drum_PE78_Face.png)
+![](KicadJE_Drum_PE78_Front1.png)
 ![back](KicadJE_Drum_PE78_Back1.png)
-
-![KicadJE_Drum_PE78_Front1.png](KicadJE_Drum_PE78_Front1.png)
-
-![](KicadJE_Drum_PE78_Face)
 
 # Schematic
 ## Sch 1
-![](KicadJE_.png)
+![](KicadJE_Drum_PE78_sch1.jpg)
+![](KicadJE_Drum_PE78_sch2.jpg)
 
 # Analysis
 ## Diag 1
 ![](.pdf)
+https://worldradiohistory.com/UK/Practical-Electronics/70s/Practical-Electronics-1978-01.pdf
 
 ## Prototype
 ![](.jpg)
