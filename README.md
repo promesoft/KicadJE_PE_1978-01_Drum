@@ -14,6 +14,8 @@ Output Audio:
 +/- 10V AC coupled
 
 ## Board 2 - Breadboard helper
+Testing out text prints
+
 Adjustment:  
 100k Pot to pinheader  
 Push button to pinheader
