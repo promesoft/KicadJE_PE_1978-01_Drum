@@ -26,12 +26,12 @@ Input/Output:
 Banana jack in  
 16 pin Euro power out
 
-# Status - Sch and PCB being established
+# Status - Sch and PCB done
 ## Initial 
 | Stage  | Detail | Status |
 | ------------- | ------------- | ------------- |
-| create material  | sch | ongoing |
-| | pcb | ongoing |
+| create material  | sch | done |
+| | pcb | done |
 | | gerber |  |
 | production  |   |  |
 |  | produced |  |
