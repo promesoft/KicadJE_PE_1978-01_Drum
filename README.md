@@ -22,12 +22,16 @@ Input/Output:
 3,5mm jack to pinheader  
 +-12V from Eurorack 10pin IDC to breadboard pinheaders
 
-# Status - Sch and PCB being established
+## Board 3 - Desktop PDU for Eurojack
+Banana jack in  
+16 pin Euro power out
+
+# Status - Sch and PCB done
 ## Initial 
 | Stage  | Detail | Status |
 | ------------- | ------------- | ------------- |
-| create material  | sch | ongoing |
-| | pcb | ongoing |
+| create material  | sch | done |
+| | pcb | done |
 | | gerber |  |
 | production  |   |  |
 |  | produced |  |
@@ -54,7 +58,12 @@ Input/Output:
 ### 
 
 # Pictures
-![](KicadJE_.png)
+
+![back](KicadJE_Drum_PE78_Back1.png)
+
+![KicadJE_Drum_PE78_Front1.png](KicadJE_Drum_PE78_Front1.png)
+
+![](KicadJE_Drum_PE78_Face)
 
 # Schematic
 ## Sch 1
