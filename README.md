@@ -28,7 +28,7 @@ Input/Output:
 Banana jack in  
 16 pin Euro power out
 
-# Status - Ordered
+# Status - In Production
 ## Initial 
 | Stage  | Detail | Status |
 | ------------- | ------------- | ------------- |
@@ -36,7 +36,7 @@ Banana jack in
 | | pcb | done |
 | | gerber | done |
 | production  |   | ordered |
-|  | produced |  |
+|  | produced | ongoing |
 |  | delivered |  |
 ## Preliminary validation
 | Test  | Detail | Status |
