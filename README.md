@@ -28,20 +28,22 @@ Input/Output:
 Banana jack in  
 16 pin Euro power out
 
-# Status - In Production
+# Status - Being assembled
 ## Initial 
 | Stage  | Detail | Status |
 | ------------- | ------------- | ------------- |
 | create material  | sch | done |
 | | pcb | done |
 | | gerber | done |
-| production  |   | ordered |
-|  | produced | ongoing |
-|  | delivered |  |
+| production  |   | delivered |
+|  | produced | delivered |
+|  | delivered | ok |
 ## Preliminary validation
 | Test  | Detail | Status |
 | ------------- | ------------- | ------------- |
-| Initial Inspection | | ok/not ok |
+| Initial Inspection | PSU | ok |
+| Initial Inspection | BB Helper | ok - Solder-mask-expansion on copper looks best - better than silk |
+| Initial Inspection | Drum Module |  |
 | Initial Technical Test | Board 1 |  |
 | Initial Product Test | Board1 |  |
 
