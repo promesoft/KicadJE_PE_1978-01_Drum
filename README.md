@@ -56,7 +56,9 @@ Banana jack in
 | Power Draw |  | 
 
 ## Errata
-### Errata - 
+### Errata - BB Power
+### Errata - PDU
+R405 not connected to GND
 
 ## Issues and Notes
 ### 
