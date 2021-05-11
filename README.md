@@ -41,8 +41,8 @@ Banana jack in
 ## Preliminary validation
 | Test  | Detail | Status |
 | ------------- | ------------- | ------------- |
-| Initial Inspection | PSU | ok |
-| Initial Inspection | BB Helper | ok - Solder-mask-expansion on copper looks best - better than silk |
+| Initial Inspection | PDU | ok mechanical|
+| Initial Inspection | BB Helper | ok mechanical - Solder-mask-expansion on copper looks best - better than silk |
 | Initial Inspection | Drum Module |  |
 | Initial Technical Test | Board 1 |  |
 | Initial Product Test | Board1 |  |
