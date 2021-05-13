@@ -67,6 +67,7 @@ R405 not connected to GND
 ![](KicadJE_Drum_PE78_Face.png)
 ![](KicadJE_Drum_PE78_Front1.png)
 ![back](KicadJE_Drum_PE78_Back1.png)
+![](DSC_0008.JPG)
 
 # Schematic
 ## Sch 1
